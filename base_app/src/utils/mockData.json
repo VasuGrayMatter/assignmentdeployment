@@ -15,9 +15,12 @@
     { "id": 2, "name": "Deluxe Suite", "price": 149.99, "type": "Suite", "beds": 2, "image": "🏢" },
     { "id": 3, "name": "Executive Room", "price": 199.99, "type": "Executive", "beds": 1, "image": "💼" }
   ],
-  "events": [
-    { "id": 1, "name": "Rock Concert", "price": 45.00, "type": "Music", "date": "2024-01-15", "image": "🎵" },
+"events": [
+    { "id": 1, "name": "Rock Concert", "price": 45.00, "type": "Music", "date": "2024-01-15", "image": "🎸" },
     { "id": 2, "name": "Basketball Game", "price": 35.00, "type": "Sports", "date": "2024-01-20", "image": "🏀" },
-    { "id": 3, "name": "Theater Play", "price": 25.00, "type": "Arts", "date": "2024-01-25", "image": "🎭" }
-  ]
+    { "id": 3, "name": "Theater Play", "price": 25.00, "type": "Arts", "date": "2024-01-25", "image": "🎭" },
+    { "id": 4, "name": "Garba Night", "price": 30.00, "type": "Dance", "date": "2024-01-18", "image": "🪩" },
+    { "id": 5, "name": "Standup Comedy", "price": 20.00, "type": "Comedy", "date": "2024-01-22", "image": "😂" },
+    { "id": 6, "name": "DJ Night", "price": 40.00, "type": "Music", "date": "2024-01-28", "image": "🎛️" }
+]
 }
