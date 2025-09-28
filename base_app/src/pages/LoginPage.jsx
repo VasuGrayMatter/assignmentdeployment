@@ -43,7 +43,7 @@ export default function LoginPage() {
     <div className="login-container">
       <div className="login-card">
         <div className="login-header">
-          <h1>🎯 Booking Portal</h1>
+          <h1> Booking Portal</h1>
           <p>Welcome! Enter your username to continue</p>
         </div>
 
@@ -68,7 +68,7 @@ export default function LoginPage() {
               onChange={e => setRole(e.target.value)}
             >
               <option value="user">👤 User</option>
-              <option value="admin">👑 Admin</option>
+              {/* <option value="admin">👑 Admin</option> */}
             </select>
           </div>
 
@@ -78,8 +78,6 @@ export default function LoginPage() {
         </form>
 
         <div className="login-footer">
-          <p>Try accessing with URL parameter: <code>?username=John</code></p>
-          <p><small>Each user has their own separate cart!</small></p>
         </div>
       </div>
     </div>
