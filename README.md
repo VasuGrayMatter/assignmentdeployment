@@ -1,4 +1,6 @@
-# booking-microfrontend (Enhanced)
+# booking-microfrontend 
+with functionality
+
 
 This project contains a Base App (host) and 4 Micro Frontends (Food, Events, Cab, Hotel) using Webpack Module Federation with Redux.
 
