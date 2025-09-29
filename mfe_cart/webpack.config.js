@@ -4,12 +4,10 @@ const { ModuleFederationPlugin } = require('webpack').container;
 
 module.exports = {
   entry: path.resolve(__dirname, 'src', 'index.js'),
-//   mode: 'production',
-  devServer: {
-    port: 3005,  // NEW PORT for Cart MFE
-    historyApiFallback: true
+  mode: 'production',
+  output: { 
+    publicPath: 'auto'
   },
-  output: { publicPath: 'auto' },
   resolve: { extensions: ['.js', '.jsx'] },
   module: { 
     rules: [
@@ -23,10 +21,10 @@ module.exports = {
       filename: 'remoteEntry.js',
       exposes: { 
         './CartApp': './src/App.jsx',
-        './CartManager': './src/components/CartManager.jsx'  // NEW: For full cart management
+        './CartManager': './src/components/CartManager.jsx'
       },
       remotes: {
-        base_app: 'base_app@https://microservi.netlify.app/remoteEntry.js'
+        base_app: 'base_app@https://microservi.netlify.app/remoteEntry.js'  // PRODUCTION URL
       },
       shared: { 
         react: { singleton: true }, 

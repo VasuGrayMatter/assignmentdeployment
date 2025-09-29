@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { useSearchParams } from 'react-router-dom';
 import './SummaryPopup.css';
 
-// Import from Cart MFE instead of individual summaries
+// Import from Cart MFE (will use production URL from webpack config)
 const CartManager = React.lazy(() => import('mfe_cart/CartManager'));
 
 export default function SummaryPopup({ onClose, username }) {
@@ -19,8 +19,7 @@ export default function SummaryPopup({ onClose, username }) {
         </div>
         
         <div className="summary-content">
-          <Suspense fallback={<div className="loading-cart">Loading cart...</div>}>
-            {/* Cart MFE handles ALL cart management */}
+          <Suspense fallback={<div className="loading-cart">Loading cart management...</div>}>
             <CartManager />
           </Suspense>
         </div>
