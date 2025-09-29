@@ -20,7 +20,7 @@ module.exports = {
         mfe_events: 'mfe_events@https://micr2.netlify.app/remoteEntry.js',
         mfe_cab: 'mfe_cab@https://micr3.netlify.app/remoteEntry.js',
         mfe_hotel: 'mfe_hotel@https://micr4.netlify.app/remoteEntry.js',
-        mfe_cart: 'mfe_cart@https://your-cart-mfe.netlify.app/remoteEntry.js'
+        mfe_cart: 'mfe_cart@http://localhost:3005/remoteEntry.js'
       },
        exposes: {
     './CartSlice': './src/redux/cartSlice.js',
