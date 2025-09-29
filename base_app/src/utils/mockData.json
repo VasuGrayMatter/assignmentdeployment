@@ -5,15 +5,53 @@
     { "id": 3, "name": "Sushi Platter", "price": 18.99, "image": "🍣", "description": "Fresh sushi selection" },
     { "id": 4, "name": "Caesar Salad", "price": 7.99, "image": "🥗", "description": "Fresh garden salad" }
   ],
-  "cab": [
-    { "id": 1, "name": "City Sedan", "price": 2.5, "type": "Sedan", "capacity": 4, "image": "🚗" },
-    { "id": 2, "name": "Family SUV", "price": 3.5, "type": "SUV", "capacity": 6, "image": "🚙" },
-    { "id": 3, "name": "Business Class", "price": 5.0, "type": "Luxury", "capacity": 3, "image": "🏎️" }
+cab": [
+  { 
+    "id": 1, 
+    "name": "Economy Sedan", 
+    "price": 2.0, 
+    "type": "Sedan", 
+    "capacity": 4, 
+    "image": "🚗" 
+  },
+  { 
+    "id": 2, 
+    "name": "Non A/C Cab", 
+    "price": 1.5, 
+    "type": "Non A/C", 
+    "capacity": 4, 
+    "image": "🚕" 
+  },
+  { 
+    "id": 3, 
+    "name": "Prime", 
+    "price": 3.0, 
+    "type": "Prime", 
+    "capacity": 4, 
+    "image": "🚘" 
+  },
+  { 
+    "id": 4, 
+    "name": "Family SUV", 
+    "price": 3.5, 
+    "type": "SUV", 
+    "capacity": 6, 
+    "image": "🚙" 
+  },
+  { 
+    "id": 5, 
+    "name": "SUV XL", 
+    "price": 4.5, 
+    "type": "SUV XL", 
+    "capacity": 8, 
+    "image": "🚐" 
+  }
   ],
   "hotel": [
     { "id": 1, "name": "Standard Room", "price": 89.99, "type": "Standard", "beds": 1, "image": "🏨" },
     { "id": 2, "name": "Deluxe Suite", "price": 149.99, "type": "Suite", "beds": 2, "image": "🏢" },
-    { "id": 3, "name": "Executive Room", "price": 199.99, "type": "Executive", "beds": 1, "image": "💼" }
+    { "id": 3, "name": "Executive Room", "price": 199.99, "type": "Executive", "beds": 1, "image": "💼" },
+    {"id": 4, "name": "Royal Suite", "price": 299.99, "type": "Royal Suite", "beds": 2, "image": "👑" }
   ],
 "events": [
     { "id": 1, "name": "Rock Concert", "price": 45.00, "type": "Music", "date": "2024-01-15", "image": "🎸" },
