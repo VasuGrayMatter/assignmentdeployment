@@ -1,9 +1,15 @@
 # booking-microfrontend 
-with functionality
+
+Deployment - https://microservi.netlify.app
+
+#Microservices
+
+Food Microservice https://micr1.netlify.app  Food ordering and menu management, Events Microservice https://micr2.netlify.app Event tickets , bookings Cab Microservice https://micr3.netlify.app  Cab services and transportation and  Hotel Microservice https://micr4.netlify.app  for Hotel room bookings
+
 
 
 This project contains a Base App (host) and 4 Micro Frontends (Food, Events, Cab, Hotel) using Webpack Module Federation with Redux.
-
+for Locally we need this set up 
 ## Ports
 - base-app: http://localhost:3000
 - mfe-food: http://localhost:3001
