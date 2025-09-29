@@ -2,6 +2,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 const { ModuleFederationPlugin } = require('webpack').container;
+//  module federation and webpack plugin is done here 
 
 module.exports = {
   entry: path.resolve(__dirname, 'src', 'index.js'),
@@ -20,8 +21,10 @@ module.exports = {
       remotes: {
     base_app: 'base_app@https://microservi.netlify.app/remoteEntry.js'   
   },
+      
       shared: { react: { singleton:true, requiredVersion:false }, 'react-dom': { singleton:true, requiredVersion:false }, 'react-redux': { singleton:true, requiredVersion:false }, '@reduxjs/toolkit': { singleton:true, requiredVersion:false } }
     }),
     new HtmlWebpackPlugin({ template: path.resolve(__dirname, 'public', 'index.html') })
+    
   ]
 };
