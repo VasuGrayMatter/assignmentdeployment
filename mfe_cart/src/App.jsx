@@ -1,6 +1,6 @@
 import React from 'react';
 import CartManager from './components/CartManager';
-import './App.css';
+
 
 // Export CartManager as named export
 export { CartManager };
